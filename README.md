@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 3. **Clone the Repository**: Clone this repository to your local machine:
 ```bash
-https://github.com/theSuriya/RAG-LLAMA-INDEX
+git clone https://github.com/theSuriya/RAG-LLAMA-INDEX
 ```
 5. **Run the Application**: Navigate to the project directory and run the following command:
  ```bash
