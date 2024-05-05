@@ -26,13 +26,19 @@ Chatbot-PDF is a conversational application that allows users to interact with P
 
 To use the Chatbot-PDF application, follow these steps:
 
-1. **Install Dependencies**: Make sure you have Python installed on your system. Then, install the required Python packages by running: pip install -r requirements.txt
-
-2. **Clone the Repository**: Clone this repository to your local machine: https://github.com/theSuriya/RAG-LLAMA-INDEX
-
-3. **Run the Application**: Navigate to the project directory and run the following command: streamlit run app.py
-
-4. **Interact with the Chatbot**: Once the application is running, open a web browser and go to http://localhost:8501 to access the chat interface. You can now interact with the chatbot by asking questions related to the provided PDF documents.
+1. **Install Dependencies**: Make sure you have Python installed on your system. Then, install the required Python packages by running:
+```bash
+pip install -r requirements.txt
+```
+3. **Clone the Repository**: Clone this repository to your local machine:
+```bash
+https://github.com/theSuriya/RAG-LLAMA-INDEX
+```
+5. **Run the Application**: Navigate to the project directory and run the following command:
+ ```bash
+ streamlit run app.py
+ ```
+7. **Interact with the Chatbot**: Once the application is running, open a web browser and go to http://localhost:8501 to access the chat interface. You can now interact with the chatbot by asking questions related to the provided PDF documents.
 
 ## Demo
 
