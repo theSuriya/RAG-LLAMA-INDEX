@@ -22,14 +22,6 @@ Chatbot-PDF is a conversational application that allows users to interact with P
 - **PDF Integration**: Chatbot is capable of processing PDF documents and extracting relevant information.
 - **Natural Language Understanding**: Powered by Hugging Face's models, the chatbot understands and responds to user queries in natural language.
 
-### HuggingFace Account login and api key setup:
-
-- first create an HuggingFace Account and login the follow this steps to [generate token](https://huggingface.co/docs/hub/security-tokens)
-
-- once you got the HuggingFace Token just paste in the .env file like this
-  ```bash
-  HF_TOkEN = "paste the token here"
-  ```
 ## Usage
 
 To use the Chatbot-PDF application, follow these steps:
@@ -38,6 +30,10 @@ To use the Chatbot-PDF application, follow these steps:
 ```bash
 git clone https://github.com/theSuriya/RAG-LLAMA-INDEX
 ```
+2. **HuggingFace Account login**: If you Dont have an account just create an account and generate the huggingface token using this reference how to generate token [visit](https://huggingface.co/docs/hub/security-tokens) once you got the HuggingFace Token just paste in the .env file like this
+  ```bash
+  HF_TOkEN = "paste the token here"
+  ```
 2. **Install Dependencies**: Make sure you have Python installed on your system. Then, install the required Python packages by running:
 ```bash
 pip install -r requirements.txt
