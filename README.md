@@ -30,7 +30,7 @@ To use the Chatbot-PDF application, follow these steps:
 ```bash
 git clone https://github.com/theSuriya/RAG-LLAMA-INDEX
 ```
-2. **HuggingFace Account login**: If you Dont have an account just create an account and generate the huggingface token using this reference how to generate token [visit](https://huggingface.co/docs/hub/security-tokens) once you got the HuggingFace Token just paste in the .env file like this
+2. **HuggingFace Account login**: If you Dont have an account just create an account and generate the huggingface token using this reference how to generate token [visit](https://huggingface.co/docs/hub/security-tokens) once you got the HuggingFace Token you can see .env file in your directory just go to thge file and  paste token like this :
   ```bash
   HF_TOkEN = "paste the token here"
   ```
