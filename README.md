@@ -26,23 +26,24 @@ Chatbot-PDF is a conversational application that allows users to interact with P
 
 To use the Chatbot-PDF application, follow these steps:
 
-1. **Clone the Repository**: Clone this repository to your local machine:
+1. **Clone the Repository**: Begin by cloning this repository to your local machine. Open your terminal or command prompt and use the following command:
 ```bash
 git clone https://github.com/theSuriya/RAG-LLAMA-INDEX
 ```
-2. **HuggingFace Account login**: If you Dont have an account just create an account and generate the huggingface token using this reference how to generate token [visit](https://huggingface.co/docs/hub/security-tokens) once you got the HuggingFace Token you can see .env file in your directory just go to thge file and  paste token like this :
+2. Open in Your Favorite IDE: Open the cloned directory in your preferred Integrated Development Environment (IDE) such as Visual Studio Code, PyCharm, or any other IDE of your choice.
+3. **HuggingFace Account login**:If you don't have a Hugging Face account, create one. You'll need an account to generate an authentication token. Follow the steps outlined in this[guid](https://huggingface.co/docs/hub/security-tokens) o generate your token. Once you have the token, locate the .env file in your project directory. Open it and paste your token like this:
   ```bash
   HF_TOkEN = "paste the token here"
   ```
-2. **Install Dependencies**: Make sure you have Python installed on your system. Then, install the required Python packages by running:
+4. **Install Dependencies**: Make sure you have Python installed on your system. Then, In your terminal or command prompt within the project directory, run:
 ```bash
 pip install -r requirements.txt
 ```
-3. **Run the Application**: Navigate to the project directory and run the following command:
+4. **Run the Application**: Navigate to the project directory and run the following command:
  ```bash
  streamlit run app.py
  ```
-4. **Interact with the Chatbot**: Once the application is running, open a web browser and go to http://localhost:8501 to access the chat interface. You can now interact with the chatbot by asking questions related to the provided PDF documents.
+6. **Interact with the Chatbot**: Once the application is running, open a web browser and go to http://localhost:8501 to access the chat interface. You can now interact with the chatbot by asking questions related to the provided PDF documents.
 
 ## Demo
 
