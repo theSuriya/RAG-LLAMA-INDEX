@@ -32,7 +32,7 @@ git clone https://github.com/theSuriya/RAG-LLAMA-INDEX
 ```
 2. **Open in Your Favorite IDE**: Open the cloned directory in your preferred Integrated Development Environment (IDE) such as Visual Studio Code, PyCharm, or any other IDE of your choice.
    
-4. **HuggingFace Account login**:If you don't have a Hugging Face account, create one. You'll need an account to generate an authentication token. Follow the steps outlined in this [guid](https://huggingface.co/docs/hub/security-tokens) to generate your token. Once you have the token, locate the .env file in your project directory. Open it and paste your token like this:
+3. **HuggingFace Account login**:If you don't have a Hugging Face account, create one. You'll need an account to generate an authentication token. Follow the steps outlined in this [guid](https://huggingface.co/docs/hub/security-tokens) to generate your token. Once you have the token, locate the .env file in your project directory. Open it and paste your token like this:
   ```bash
   HF_TOkEN = "paste the token here"
   ```
@@ -40,7 +40,7 @@ git clone https://github.com/theSuriya/RAG-LLAMA-INDEX
 ```bash
 pip install -r requirements.txt
 ```
-4. **Run the Application**: Navigate to the project directory and run the following command:
+5. **Run the Application**: Navigate to the project directory and run the following command:
  ```bash
  streamlit run app.py
  ```
