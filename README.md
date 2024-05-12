@@ -33,7 +33,7 @@ git clone https://github.com/theSuriya/RAG-LLAMA-INDEX
 2. **Open in Your Favorite IDE**: Open the cloned directory in your preferred Integrated Development Environment (IDE) such as Visual Studio Code, PyCharm, or any other IDE of your choice.
    
 3. **HuggingFace Account login**:If you don't have a Hugging Face account, create one. You'll need an account to generate an authentication token. Follow the steps outlined in this [guid](https://huggingface.co/docs/hub/security-tokens) to generate your token. Once you have the token, locate the .env file in your project directory. Open it and paste your token like this:
-  ```bash
+  ```dotenv
   HF_TOkEN = "paste the token here"
   ```
 4. **Install Dependencies**: Make sure you have Python installed on your system. Then, In your terminal or command prompt within the project directory, run:
